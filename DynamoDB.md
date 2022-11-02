@@ -1,11 +1,15 @@
 AWS DynamoDB
 
-好的数据库引擎 • 高性能 • 可用性 • 可恢复性
+好的数据库引擎 
+
+    • 高性能
+    • 可用性
+    • 可恢复性
 
 <h1>数据库分类 </h1>
-<h2>关系型数据库</h2>（Relational Database Management Systems -RDBMS）
+<h2>关系型数据库</h2>（Relational Database Management Systems -RDBMS）  
 Mysql, SQL Server, Oracle, PostgressSQL,H2   
-关系模型可以简单理解为二维表格模型，而一个关系型数据库就是由二维表及其之间的关系组成的一个数据组织。
+关系模型可以简单理解为二维表格模型，而一个关系型数据库就是由二维表及其之间的关系组成的一个数据组织。  
 
 <h2>非关系型数据库</h2>
 （NoSQL Hbase, MongoDB, Amazon DynamoDB,Redis  

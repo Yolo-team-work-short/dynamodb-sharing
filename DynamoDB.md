@@ -60,7 +60,7 @@ CREATE TABLE Music (
 
 <b>DynamoDB</b>
 
-``` json
+``` js
 {
     TableName : "Music",
     KeySchema: [

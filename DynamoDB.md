@@ -169,7 +169,7 @@ same key schema as a table.
 
 For example, you could create a global secondary index named GameTitleIndex, with a partition key of GameTitle and a
 sort key of TopScore. The base table's primary key attributes are always projected into an index, so the UserId
-attribute is also present. The following diagram shows what GameTitleIndex index would look like.
+attribute is also present. The following diagram shows what GameTitleIndex index would look like.    
 
 ![](src/resource/dynamodb/games_index.png)
 

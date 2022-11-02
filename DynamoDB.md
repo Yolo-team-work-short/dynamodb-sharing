@@ -126,7 +126,7 @@ determines the partition (physical storage internal to DynamoDB) in which the it
 same partition key value are stored together, in sorted order by sort key value.
 
 In a table that has a partition key and a sort key, it's possible for multiple items to have the same partition key
-value. However, those items must have different sort key values.
+value. However, those items must have different sort key values.    
 ![](src/resource/dynamodb/core_components.png)
 
 <h3>Secondary indexes</h3>
@@ -150,7 +150,7 @@ against these indexes in Amazon DynamoDB.
 <h6>Scenario: Using a Global Secondary Index</h6>
 To illustrate, consider a table named GameScores that tracks users and scores for a mobile gaming application. Each item
 in GameScores is identified by a partition key (UserId) and a sort key (GameTitle). The following diagram shows how the
-items in the table would be organized. (Not all of the attributes are shown.)
+items in the table would be organized. (Not all of the attributes are shown.).   
 ![](src/resource/dynamodb/games_table.png)
 Now suppose that you wanted to write a leaderboard application to display top scores for each game. A query that
 specified the key attributes (UserId and GameTitle) would be very efficient. However, if the application needed to
